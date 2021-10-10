@@ -36,7 +36,7 @@ def train(train_iter, dev_iter, model, args):
             model = torch.load(snapshot)['model']
             optimizer=torch.load(snapshot)['optimizer']
         else:
-            optimizer = Optimizer.TransformerOptimizer(
+            optimizer = Optimizer.Optimizer(
                 torch.optim.Adam(model.parameters(), betas=(0.9, 0.98), eps=1e-09))
     if args.cuda:
         model.cuda()

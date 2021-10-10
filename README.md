@@ -1,4 +1,4 @@
-## CNN Pytorch实现 中文文本分类
+## CNN Pytorch实现 中文情感分类
 ## 论文
 
 [1] Li S ,  Zhao Z ,  Hu R , et al. Analogical Reasoning on Chinese Morphological and Semantic Relations[C]，ACL 2018.

@@ -1,7 +1,7 @@
 
 
 d_model=512
-class TransformerOptimizer(object):
+class Optimizer(object):
     def __init__(self, optimizer, warmup_steps=500):
         self.optimizer = optimizer
         self.init_lr = d_model ** (-0.5)

@@ -35,5 +35,5 @@ python3 main.py
     ```bash
       python main.py -static=true -non-static=true -multichannel=true
     ```
-## 训练 CNN 并将日志保存到 runs 文件夹。要查看日志，只需cmd下运行
+## 训练 CNN 并将日志保存到 runs 文件夹,要查看日志，只需cmd下运行
 tensorboard --logdir=runs 

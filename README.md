@@ -21,18 +21,22 @@
 https://github.com/Embedding/Chinese-Word-Vectors<br>
 （这里用的是训练出来的word Word2vec）
 ## 用法
-```bash
+```
+python3 preprocess.py
+```
+## 用法
+```
 python3 main.py -h
 ```
 
 ## 训练
-```bash
+```
 python3 main.py
 ```
 
 ## 准确率
 -  CNN-multichannel 使用预训练的静态词向量微调词向量
-    ```bash
+    ```
 python main.py -static=true -non-static=true -multichannel=true
     ```
 ## 训练 CNN 并将日志保存到 runs 文件夹,要查看日志，只需cmd下运行
